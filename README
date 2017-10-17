@@ -21,7 +21,6 @@ DEPENDENCIES
 FILES
 
 	README              # This file.
-	dot_dot@            # directory, goal: The dominion projects and information goes here....
 	hello_model/        # directory, goal: hello world with AngularJS, using a model
 	hello_world/        # directory, goal: Build simle	hello world programm
 	service_vs_factory/ # directory, goal: Know the difference between Service and Factory.
