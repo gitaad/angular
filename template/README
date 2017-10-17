@@ -1,0 +1,27 @@
+AUTHOR
+
+	adriaan1@gmail.com
+
+DATE
+
+	This file was first generated on 2017-10-12 10:53
+
+GOAL
+
+	Make example of Angular Template
+
+STATUS
+
+	1. Copied and tried example from https://docs.angularjs.org/guide/concepts#template
+	2. Not working yet.
+	3. Now working but not totally understood.
+
+DEPENDENCIES
+
+	No documented dependencies yet.
+
+FILES
+
+	README     # This file.
+	index.html # HTML document, ASCII text
+	invoice.js # ASCII text

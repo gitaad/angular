@@ -1,0 +1,6 @@
+logs/*
+!.gitkeep
+tmp
+.min.css
+.min.js
+shuffle-it_tests/*

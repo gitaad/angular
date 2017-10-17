@@ -1,0 +1,28 @@
+AUTHOR
+
+	adriaan1@gmail.com
+
+DATE
+
+	This file was first generated on 2017-10-12 10:51
+
+GOAL
+
+	learn angular by creating working examples.
+
+USAGE
+
+	Browse to ./*/index.html
+
+DEPENDENCIES
+
+	None so far. Anjular is loaded from the web in the html.
+
+FILES
+
+	README              # This file.
+	dot_dot@            # directory, goal: The dominion projects and information goes here....
+	hello_model/        # directory, goal: hello world with AngularJS, using a model
+	hello_world/        # directory, goal: Build simle	hello world programm
+	service_vs_factory/ # directory, goal: Know the difference between Service and Factory.
+	template/           # directory, goal: Make example of Angular Template

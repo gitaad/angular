@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- My own example based on what I read in https://toddmotto.com/factory-versus-service -->
+<head>
+	<meta charset="UTF-8">
+	<title>Factory vs Service</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<script src="js/service.js"></script>
+	<script src="js/app.js"></script>
+</head>
+<body>
+<div ng-app="myAppModule" ng-controller="myAppController as foodApp">
+
+	<div>
+		<table style="border: solid; border-width: 2px; border-color: red;">
+			<tr> <th>Food</th> <th>Chocolate</th> <th>Fruit</th> <th>Coffee</th> </tr>
+			<tr>
+				<td>{{foodApp.supplies.food.length}}</td>
+				<td>{{foodApp.supplies.chocolate.length}}</td>
+				<td>{{foodApp.supplies.fruit.length}}</td>
+				<td>{{foodApp.supplies.coffee.length}}</td>
+			</tr>
+			<tr>
+				<td>
+					<button ng-click="foodApp.getMoreFood()"> More </button>
+			   	</td>
+				<td>
+					<button ng-click="foodApp.getMoreChocolate()"> More </button>
+			   	</td>
+				<td>
+					<button ng-click="foodApp.getMoreFruit()"> More </button>
+			   	</td>
+				<td>
+					<button ng-click="foodApp.getMoreCoffee()"> More </button>
+			   	</td>
+			</tr>
+
+		</table>
+	</div>
+	<div>
+	</div>
+
+</div>
+</body>
+</html>
